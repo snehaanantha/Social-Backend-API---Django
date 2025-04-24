@@ -7,7 +7,7 @@ This is a Django REST Framework-based backend for a social networking applicatio
 ## 📂 Project Structure
 
 ```
-social-backend/
+social_backend/
 ├── users/                      # Custom user model and logic
 ├── friend_requests/           # Friend request and friendship logic
 ├── social_backend/            # Main Django project settings
