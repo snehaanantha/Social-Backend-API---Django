@@ -31,5 +31,5 @@ urlpatterns = [
     path('api/google/', GoogleLogin.as_view(), name='google_login'),
     path('api/auth/login/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('api/auth/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
-    path('api/friends/', include('friend_requests.urls')),
+    path('api/friends/', include('friend_request.urls')),
 ]

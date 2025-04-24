@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'social_backend',
-    'friend_requests',
+    'friend_request',
     'users',
     'rest_framework',
     'rest_framework_simplejwt',

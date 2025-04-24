@@ -9,7 +9,7 @@ This is a Django REST Framework-based backend for a social networking applicatio
 ```
 social_backend/
 ├── users/                      # Custom user model and logic
-├── friend_requests/           # Friend request and friendship logic
+├── friend_request/           # Friend request and friendship logic
 ├── social_backend/            # Main Django project settings
 ├── manage.py
 ├── requirements.txt
